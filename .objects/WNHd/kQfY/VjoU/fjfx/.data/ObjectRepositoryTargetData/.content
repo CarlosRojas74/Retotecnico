@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hrH0Owm1IEC-WKSkB0MHbQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/auth/login" CVScreenId="97e165ea-2871-460c-b9f1-e362bd718562" CvElementArea="320, 532, 468, 48" CvType="InputBox" DesignTimeRectangle="323, 533, 463, 45" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' class='oxd-input oxd-input--active' placeholder='Password' aaname='' /&gt;" Guid="5accc1ee-d215-4ba0-8584-2fe3556e5dc5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="97e165ea-2871-460c-b9f1-e362bd718562" CvTextArea="342, 513, 55, 11" CvTextArgument="Password" CvType="Text" DesignTimeRectangle="343, 511, 53, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' type='' class='oxd-label' check:innerText='Password' /&gt;" Guid="7ad76d48-2a8e-424e-9de7-86aa63cd6513" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="54a1d28ab24d8426e84d784f7d59982f.png" xmlns="">0qE7y58CzpEaV0sGhBad9Og</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

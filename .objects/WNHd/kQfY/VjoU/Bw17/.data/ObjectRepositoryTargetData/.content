@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JD1YybXXZUCd8bbHRhoKjA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/changeCandidateVacancyStatus" CVScreenId="1fc6c5d8-ffef-4630-8677-0270d47c2f2d" CvElementArea="1188, 620, 103, 34" CvTextArea="1223, 629, 33, 13" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1190, 621, 100, 32" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space' aaname=' Save ' check:innerText='Save' /&gt;" Guid="cd3b0f7b-6b63-4c0f-8aac-043e840e8ca0" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1fc6c5d8-ffef-4630-8677-0270d47c2f2d" CvTextArea="336, 279, 172, 14" CvTextArgument="Mark Interview Passed" CvType="Text" DesignTimeRectangle="337, 276, 953, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='H6' class='oxd-text oxd-text--h6 orangehrm-main-title' aaname='Mark Interview Passed' check:innerText='Mark Interview Passed' /&gt;" Guid="0a2e0230-3e74-4601-b10e-f84f99040470" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="bd186cd2a4156cc9a57f36dd7f0b6476.png" xmlns="">0Hc_-sD-J_kur3VINb5DQDg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

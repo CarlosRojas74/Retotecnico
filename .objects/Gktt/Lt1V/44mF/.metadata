@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome (2312) Curso Gratis RPA Uipath 2024 - ",
+  "Type": "Screen",
+  "Id": "44mF1ZSylE-3eikl_LIFAQ",
+  "Reference": "q-HrZsaNjU2S80AJrClBOQ/44mF1ZSylE-3eikl_LIFAQ",
+  "ParentRef": "q-HrZsaNjU2S80AJrClBOQ/Lt1V11KQXE-X5pz5V0h2Xw",
+  "Created": "2024-12-14T00:36:15.226436Z",
+  "Updated": "2024-12-14T00:36:15.226436Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="oXI2BMJEz06Ffdca5RxJxA" Reference="q-HrZsaNjU2S80AJrClBOQ/oTyuJkMKu0iYddt_VHI1Ew" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/changeCandidateVacancyStatus" CVScreenId="a5eaf96e-0b3e-41d9-89fc-80492c011c07" CvElementArea="337, 538, 304, 48" CvType="InputBox" DesignTimeRectangle="340, 346, 298, 40" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl type='' tag='INPUT' class='' placeholder='Type for hints...' aaname='' /&gt;" Guid="abdf96e9-16ec-489d-a197-34a8f25d9e86" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="4603a4e587ffc1d949022501fc670e64.png" xmlns="">0Hjr3jOUD7U2_N-aoZK1znA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="AuHeJzbUQECRs4QVAcEYCg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates" CVScreenId="abffadfb-edf5-475e-9f66-4521cb5f5c08" CvElementArea="335, 710, 113, 34" CvTextArea="371, 720, 43, 13" CvTextArgument="+ Add" CvType="Button" DesignTimeRectangle="337, 712, 109, 31" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname=' Add ' tag='BUTTON' type='button' class='oxd-button oxd-button--medium oxd-button--secondary' check:innerText='Add' /&gt;" Guid="73655cb5-58ab-46f5-b2fb-39a50cfa9007" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1d66872d991b52d4cca4de723a0060bb.png" xmlns="">0j8Qqfa28f0q5kHs1sZVC3w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

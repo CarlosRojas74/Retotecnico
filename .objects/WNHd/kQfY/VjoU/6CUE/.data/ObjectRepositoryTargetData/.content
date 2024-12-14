@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="cJWutSnsY0CapyBtvp5G3Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/changeCandidateVacancyStatus" CVScreenId="80f84376-5ff9-4a10-8cc7-880182cc492b" CvTextArea="919, 623, 17, 11" CvTextArgument="14" CvType="Text" DesignTimeRectangle="909, 610, 38, 38" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='14' parentid='app' tag='DIV' type='' class='oxd-calendar-date --selected --today' check:innerText='14' /&gt;" Guid="ea3e2e1f-24d2-47e6-bffb-e810383c5592" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset X="4" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="a74718b290a0cad1084a7eb3e6297f2c.png" xmlns="">0Q0Q5MUCyP02C9MvvY8rsTg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

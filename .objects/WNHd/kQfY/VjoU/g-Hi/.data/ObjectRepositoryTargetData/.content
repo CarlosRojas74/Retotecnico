@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-5m8cKKJkUWIOTcZOD70Aw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/dashboard/index" CVScreenId="466a5bd3-ece1-4b8b-b288-16fb919b9f14" CvTextArea="68, 469, 77, 13" CvTextArgument="Recruitment" CvType="Text" DesignTimeRectangle="54, 467, 91, 19" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Recruitment' tag='SPAN' type='' class='oxd-text oxd-text--span oxd-main-menu-item--name' check:innerText='Recruitment' /&gt;" Guid="0fe148cc-7e8e-4fcc-addf-f8d6017d94a4" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="42, 471, 5, 5" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl type='' class='' tag='path' aaname='' /&gt;" Guid="c2ce3404-337a-464d-8029-5769298b73ae" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="38b9ff13f58ee811da117fd0da75a040.png" xmlns="">02R-ce6dlcE-KTktXmmN-TA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

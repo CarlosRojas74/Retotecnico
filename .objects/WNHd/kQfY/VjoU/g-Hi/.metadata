@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Recruitment",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "g-HiEHySv0avu_nWGhXXKA",
+  "Reference": "q-HrZsaNjU2S80AJrClBOQ/g-HiEHySv0avu_nWGhXXKA",
+  "ParentRef": "q-HrZsaNjU2S80AJrClBOQ/VjoUXDWImEupLbv_mxaLZw",
+  "Created": "2024-12-14T12:27:52.8786088Z",
+  "Updated": "2024-12-14T12:27:52.8786088Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

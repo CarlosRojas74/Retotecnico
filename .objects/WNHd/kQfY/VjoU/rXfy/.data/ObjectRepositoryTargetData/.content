@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="z0kTG1c_HEu6KTeGSJsryA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/addCandidate" CVScreenId="46f4b6c4-2640-4465-8a38-762ef70ff315" CvElementArea="338, 285, 302, 47" CvType="InputBox" DesignTimeRectangle="340, 300, 259, 18" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='oxd-select-text-input' parentid='app' tag='DIV' type='' aaname='-- Select --' check:innerText='-- Select --' /&gt;" Guid="8915848f-ca95-455b-96da-190ef40f9836" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="46f4b6c4-2640-4465-8a38-762ef70ff315" CvTextArea="338, 266, 47, 13" CvTextArgument="Vacancy" CvType="Text" DesignTimeRectangle="339, 264, 45, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='oxd-label' tag='LABEL' type='' aaname='Vacancy' check:innerText='Vacancy' /&gt;" Guid="f5c35ecb-76ff-4a9f-bf47-bab4c5086a20" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6febba6cd20405bf7e1f0811fcb1e584.png" xmlns="">0IEdx6MW7_UmQrZ6E9NyUjA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

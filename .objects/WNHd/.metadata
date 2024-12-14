@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome OrangeHRM",
+  "Type": "App",
+  "Id": "WNHdcR_LLkiOJyFfn9eWbg",
+  "Reference": "q-HrZsaNjU2S80AJrClBOQ/WNHdcR_LLkiOJyFfn9eWbg",
+  "Created": "2024-12-14T00:36:46.1172997Z",
+  "Updated": "2024-12-14T00:36:46.1172997Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

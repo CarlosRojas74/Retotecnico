@@ -1,0 +1,414 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>Microsoft.VisualBasic.ApplicationServices</x:String>
+      <x:String>UiPath.Activities.Contracts</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>UiPath.Activities.Contracts</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="670,7140" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Default="Oscar" Name="PrimerNombre" />
+      <Variable x:TypeArguments="x:String" Default="Andrés" Name="SegundoNombre" />
+      <Variable x:TypeArguments="x:String" Default="Roa Guzmán" Name="Apellidos" />
+      <Variable x:TypeArguments="x:String" Default="oscarroa@gmail.com" Name="Email" />
+      <Variable x:TypeArguments="x:Int32" Name="Telefono">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:Int32" Value="123456789" />
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Default="Entrevista" Name="Entrevista" />
+      <Variable x:TypeArguments="x:String" Name="Inicial">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">james butler</Literal>
+        </Variable.Default>
+      </Variable>
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome OrangeHRM(1)" sap:VirtualizedContainerService.HintSize="484,7117" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="d6844fa3-879d-484c-b2ee-3c154370a54d" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,6877" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Username'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Text="Admin" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/auth/login" CVScreenId="97e165ea-2871-460c-b9f1-e362bd718562" ContentHash="NiWQZIfczEKMyNHaCXoN_g" CvElementArea="320, 446, 468, 48" CvType="InputBox" DesignTimeRectangle="323, 448, 463, 45" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='username' tag='INPUT' type='' class='oxd-input oxd-input--focus' placeholder='Username' aaname='' /&gt;" Guid="1ba0c206-b09e-4252-af64-9241de9b4bc6" InformativeScreenshot="0c16c4ce4de3e3927a863d873254c97a.png" IsResponsive="True" Reference="q-HrZsaNjU2S80AJrClBOQ/VHnr9DG4kkyS1aa4-a3mfQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="97e165ea-2871-460c-b9f1-e362bd718562" CvTextArea="341, 427, 57, 11" CvTextArgument="Username" CvType="Text" DesignTimeRectangle="343, 425, 55, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='oxd-label' aaname='Username' check:innerText='Username' /&gt;" Guid="b2dd2714-653f-4237-b52d-a6df8c41a064" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_4" IsPassword="True" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Text="admin123" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/auth/login" CVScreenId="97e165ea-2871-460c-b9f1-e362bd718562" ContentHash="hrH0Owm1IEC-WKSkB0MHbQ" CvElementArea="320, 532, 468, 48" CvType="InputBox" DesignTimeRectangle="323, 533, 463, 45" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' class='oxd-input oxd-input--active' placeholder='Password' aaname='' /&gt;" Guid="5accc1ee-d215-4ba0-8584-2fe3556e5dc5" InformativeScreenshot="54a1d28ab24d8426e84d784f7d59982f.png" Reference="q-HrZsaNjU2S80AJrClBOQ/fjfxvCOeWkSI8EZhQ4Sk1g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="97e165ea-2871-460c-b9f1-e362bd718562" CvTextArea="342, 513, 55, 11" CvTextArgument="Password" CvType="Text" DesignTimeRectangle="343, 511, 53, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' type='' class='oxd-label' check:innerText='Password' /&gt;" Guid="7ad76d48-2a8e-424e-9de7-86aa63cd6513" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Login'" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/auth/login" CVScreenId="98bbfc52-3f5a-434b-8989-862c0d3b33db" ContentHash="Jhbbtyqau0KLddaPr4zm7Q" CvElementArea="322, 608, 464, 49" CvTextArea="535, 625, 38, 16" CvTextArgument="Login" CvType="Button" DesignTimeRectangle="323, 610, 463, 46" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='oxd-button oxd-button--medium oxd-button--main orangehrm-login-button' aaname=' Login ' check:innerText='Login' /&gt;" Guid="c6baf853-cc89-4f9e-b55a-3721a3e1fa80" InformativeScreenshot="1406b9f3071166471c6f471886634517.png" Reference="q-HrZsaNjU2S80AJrClBOQ/hkZ9zrA--UOw2HadkvD_Wg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Recruitment'" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/dashboard/index" CVScreenId="466a5bd3-ece1-4b8b-b288-16fb919b9f14" ContentHash="-5m8cKKJkUWIOTcZOD70Aw" CvTextArea="68, 469, 77, 13" CvTextArgument="Recruitment" CvType="Text" DesignTimeRectangle="54, 467, 91, 19" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Recruitment' tag='SPAN' type='' class='oxd-text oxd-text--span oxd-main-menu-item--name' check:innerText='Recruitment' /&gt;" Guid="0fe148cc-7e8e-4fcc-addf-f8d6017d94a4" InformativeScreenshot="38b9ff13f58ee811da117fd0da75a040.png" Reference="q-HrZsaNjU2S80AJrClBOQ/g-HiEHySv0avu_nWGhXXKA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="42, 471, 5, 5" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl type='' class='' tag='path' aaname='' /&gt;" Guid="c2ce3404-337a-464d-8029-5769298b73ae" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Add'" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates" CVScreenId="abffadfb-edf5-475e-9f66-4521cb5f5c08" ContentHash="AuHeJzbUQECRs4QVAcEYCg" CvElementArea="335, 710, 113, 34" CvTextArea="371, 720, 43, 13" CvTextArgument="+ Add" CvType="Button" DesignTimeRectangle="337, 712, 109, 31" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname=' Add ' tag='BUTTON' type='button' class='oxd-button oxd-button--medium oxd-button--secondary' check:innerText='Add' /&gt;" Guid="73655cb5-58ab-46f5-b2fb-39a50cfa9007" InformativeScreenshot="1d66872d991b52d4cca4de723a0060bb.png" Reference="q-HrZsaNjU2S80AJrClBOQ/inXIz3YWX02cdLfbexFm4g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Full Name'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Text="[PrimerNombre]" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/addCandidate" CVScreenId="71b72e07-afcc-48ef-b061-f46ba70ad8da" ContentHash="rRk35Z5_q0ibL2tMet1jFA" CvElementArea="337, 295, 318, 47" CvType="InputBox" DesignTimeRectangle="339, 296, 316, 45" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='firstName' tag='INPUT' type='' class='oxd-input oxd-input--active orangehrm-firstname' placeholder='First Name' aaname='' /&gt;" Guid="77e034c3-afa2-4c10-908d-b679b1c81467" InformativeScreenshot="a7452e6c4c36b4e8231fac2f12a43c49.png" IsResponsive="True" Reference="q-HrZsaNjU2S80AJrClBOQ/hMTMZZ-9k0GDS6ROFX73hA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="71b72e07-afcc-48ef-b061-f46ba70ad8da" CvTextArea="338, 269, 61, 11" CvTextArgument="Full Name*" CvType="Text" DesignTimeRectangle="339, 267, 60, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='oxd-label oxd-input-field-required' aaname='Full Name' check:innerText='Full Name' /&gt;" Guid="58ec23ab-e039-4860-aea8-f48650194f5a" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Text="[SegundoNombre]" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/addCandidate" CVScreenId="71b72e07-afcc-48ef-b061-f46ba70ad8da" ContentHash="zNXMcWFFDE-RNQ_5y4TsTw" CvTextArea="663, 312, 73, 11" CvTextArgument="Middle Name" CvType="Text" DesignTimeRectangle="655, 296, 317, 45" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='middleName' tag='INPUT' type='' class='oxd-input oxd-input--active orangehrm-middlename' placeholder='Middle Name' aaname='' /&gt;" Guid="bad3e0ba-0af1-4ea8-a9c3-22cb16a0fa9a" InformativeScreenshot="fc2c328d3c581c2dcaea78d5b581e4aa.png" Reference="q-HrZsaNjU2S80AJrClBOQ/0BukrvI-J0iSfJEwyURmfg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT(1)'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Text="[Apellidos]" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/addCandidate" CVScreenId="71b72e07-afcc-48ef-b061-f46ba70ad8da" ContentHash="PhbMRFmkYESKaTtjg7Uw7A" CvElementArea="971, 296, 317, 46" CvType="InputBox" DesignTimeRectangle="972, 296, 316, 45" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='lastName' tag='INPUT' type='' class='oxd-input oxd-input--active orangehrm-lastname' placeholder='Last Name' aaname='' /&gt;" Guid="d27cd3cb-2529-4e51-b956-3d81dc528e40" InformativeScreenshot="0d439360ade0a920b62617a199856afd.png" Reference="q-HrZsaNjU2S80AJrClBOQ/0dBg4LVs00SZeuBQy3uy6A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '-- Select --'" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/addCandidate" CVScreenId="46f4b6c4-2640-4465-8a38-762ef70ff315" ContentHash="z0kTG1c_HEu6KTeGSJsryA" CvElementArea="338, 285, 302, 47" CvType="InputBox" DesignTimeRectangle="340, 300, 259, 18" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='oxd-select-text-input' parentid='app' tag='DIV' type='' aaname='-- Select --' check:innerText='-- Select --' /&gt;" Guid="8915848f-ca95-455b-96da-190ef40f9836" InformativeScreenshot="6febba6cd20405bf7e1f0811fcb1e584.png" Reference="q-HrZsaNjU2S80AJrClBOQ/rXfyz6OOg0KH4b-In2r-iA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="46f4b6c4-2640-4465-8a38-762ef70ff315" CvTextArea="338, 266, 47, 13" CvTextArgument="Vacancy" CvType="Text" DesignTimeRectangle="339, 264, 45, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='oxd-label' tag='LABEL' type='' aaname='Vacancy' check:innerText='Vacancy' /&gt;" Guid="f5c35ecb-76ff-4a9f-bf47-bab4c5086a20" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Payroll Administrator'" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/addCandidate" CVScreenId="d2f9a618-35a0-49c1-aaae-ab4b46dcf872" ContentHash="5LKVs9Hm2U638QI99c4fvA" CvTextArea="348, 425, 113, 13" CvTextArgument="Payroll Administrator" CvType="Text" DesignTimeRectangle="348, 423, 113, 16" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Payroll Administrator' tag='SPAN' type='' class='' check:innerText='Payroll Administrator' /&gt;" Guid="b0bf16b3-727d-452a-8942-6cffcd7e8b59" InformativeScreenshot="972d0e9f0eddb91ecfa8032b4b1e2338.png" Reference="q-HrZsaNjU2S80AJrClBOQ/thigAj5qeUqUdzgKNr7iDw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Email'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_8" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Text="[Email]" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/addCandidate" CVScreenId="31231a0e-c713-4dcc-8fa1-0c6962930f39" ContentHash="zcUsmT1AkkGY_gXVjbb82w" CvElementArea="337, 368, 304, 47" CvType="InputBox" DesignTimeRectangle="339, 370, 300, 45" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl type='' tag='INPUT' class='oxd-input oxd-input--active' placeholder='Type here' aaname='' /&gt;" Guid="70448a86-2ed2-455e-a74a-e950c7fc4834" InformativeScreenshot="8444c559daaf957219d55f9b2ae53747.png" IsResponsive="True" Reference="q-HrZsaNjU2S80AJrClBOQ/P5H42IsqcU6b5B6CldPveA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="31231a0e-c713-4dcc-8fa1-0c6962930f39" CvTextArea="338, 349, 36, 11" CvTextArgument="Email*" CvType="Text" DesignTimeRectangle="339, 347, 35, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Email' tag='LABEL' type='' class='oxd-label oxd-input-field-required' check:innerText='Email' /&gt;" Guid="5ede9e1a-b89e-48c0-af79-30c70dd725ff" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Contact Number'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_9" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Text="[Telefono.ToString]" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/addCandidate" CVScreenId="31231a0e-c713-4dcc-8fa1-0c6962930f39" ContentHash="tAQt31gn30m8DDrz9j_LTA" CvElementArea="661, 368, 305, 48" CvType="InputBox" DesignTimeRectangle="663, 370, 301, 45" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl type='' class='oxd-input oxd-input--active' tag='INPUT' placeholder='Type here' aaname='' /&gt;" Guid="8db085b3-de8f-4388-9d78-94de9efaded4" InformativeScreenshot="40049769b70b621596e4d3b240bfeef0.png" IsResponsive="True" Reference="q-HrZsaNjU2S80AJrClBOQ/oELoXoD3q0ODXw9nmIXWMA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="31231a0e-c713-4dcc-8fa1-0c6962930f39" CvTextArea="662, 349, 92, 11" CvTextArgument="Contact Number" CvType="Text" DesignTimeRectangle="663, 347, 90, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Contact Number' class='oxd-label' tag='LABEL' type='' check:innerText='Contact Number' /&gt;" Guid="fdd81317-47cd-4e0b-acf8-83b039e1894f" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Browse'" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/addCandidate" CVScreenId="31231a0e-c713-4dcc-8fa1-0c6962930f39" ContentHash="5PyQ5MWIO0anCd3sZVOQtw" CvElementArea="340, 454, 102, 42" CvTextArea="368, 468, 49, 13" CvTextArgument="Browse" CvType="Button" DesignTimeRectangle="344, 458, 96, 35" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='oxd-file-button' parentid='app' tag='DIV' type='' aaname='Browse' check:innerText='Browse' /&gt;" Guid="627aa93a-4d85-4ef8-96fa-bf42e9c039f9" InformativeScreenshot="9d34a8985aa5c159d0d20e5f5f020f7a.png" Reference="q-HrZsaNjU2S80AJrClBOQ/vONINlkVHEWNIEyhIITHZg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Prueba Hoja de Vida.txt'" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/addCandidate" CVScreenId="e3c5a0d9-3f93-405b-8db8-23d13411bb5c" ContentHash="pMnEt05UT0Gw94i7XHpPDA" CvTextArea="205, 182, 125, 12" CvTextArgument="Prueba Hoja de Vida.txt" CvType="Text" DesignTimeRectangle="204, 179, 408, 19" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;wnd aaname='Panel del explorador' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Vista Elementos' cls='DirectUIHWND' /&gt;&lt;ctrl name='Vista Elementos' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Panel del explorador' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Vista Elementos' cls='DirectUIHWND' /&gt;&lt;ctrl name='Vista Elementos' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' role='editable text' check:text='Prueba Hoja de Vida.txt' /&gt;" Guid="4ed4bfa6-aa32-4452-aa48-a342820780d7" InformativeScreenshot="1f85b86d1ae3852e6cef8cee5375c173.png" Reference="q-HrZsaNjU2S80AJrClBOQ/8VVbFSpB8kOVmFM5gFNjVA" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Abrir' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '&amp;Abrir'" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/addCandidate" CVScreenId="238b636c-1fed-4af9-8e47-7890f35dc859" ContentHash="aKeHuBL6kkCq_Aqwcd61EQ" CvElementArea="470, 429, 88, 26" CvTextArea="499, 435, 29, 12" CvTextArgument="Abrir" CvType="Button" DesignTimeRectangle="470, 429, 88, 26" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Abrir' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Abrir' check:text='&amp;amp;Abrir' /&gt;" Guid="27cb7886-85bf-4ea6-ab24-796b81e97e19" InformativeScreenshot="d0f7f97c988339ded873b416161524ff.png" Reference="q-HrZsaNjU2S80AJrClBOQ/n-4qsw65zUCZrCY6GkdKYA" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Abrir' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save'" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/addCandidate" CVScreenId="e0d0da60-3ade-4fab-a7a9-e15cf591365e" ContentHash="YFuRno2srU2SCiUfob1CLA" CvElementArea="1189, 699, 103, 34" CvTextArea="1223, 708, 33, 13" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1190, 700, 100, 32" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space' aaname=' Save ' check:innerText='Save' /&gt;" Guid="b0710291-38d3-4cef-b857-09ec48f201e8" InformativeScreenshot="4e8b60c37d85ea597501edcea537c380.png" Reference="q-HrZsaNjU2S80AJrClBOQ/mhADEGJ0WEeFVU3wZwzDrw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Shortlist'" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/addCandidate/82" CVScreenId="6cdb0826-a53f-4fb4-ae86-0d6265f6e0c3" ContentHash="DE96i2ZErEq4IKdeN4wiOw" CvElementArea="1171, 402, 121, 34" CvTextArea="1203, 411, 56, 13" CvTextArgument="Shortlist" CvType="Button" DesignTimeRectangle="1172, 404, 118, 30" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname=' Shortlist ' tag='BUTTON' type='button' class='oxd-button oxd-button--medium oxd-button--success' check:innerText='Shortlist' /&gt;" Guid="522601f5-288d-4ce4-8695-0fd730bc4500" InformativeScreenshot="175f60cee1d2ad9ad1e8a4d89763f71c.png" Reference="q-HrZsaNjU2S80AJrClBOQ/tjPbAiGqRU2SbSXbOpmoaw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save(1)'" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/changeCandidateVacancyStatus" CVScreenId="ddd8be87-5fb8-429b-a8b1-66d895a69023" ContentHash="X0R43qKZ00-a10yq5maRAQ" CvElementArea="1189, 672, 103, 35" CvTextArea="1223, 681, 33, 13" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1190, 673, 100, 32" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space' aaname=' Save ' check:innerText='Save' /&gt;" Guid="2d33a2e4-bc3e-4ce6-9006-152b7358a31a" InformativeScreenshot="5b8126dd2898c996e7384aaf6336bfef.png" Reference="q-HrZsaNjU2S80AJrClBOQ/roFzLymIpEmvjiWEXbAclQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Schedule Interview'" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/addCandidate/82" CVScreenId="60e378f2-8da1-451e-8305-f45e50e7e9c2" ContentHash="y3KTFw-CyEaD0jQDfpXclA" CvElementArea="1104, 402, 186, 34" CvTextArea="1135, 411, 124, 13" CvTextArgument="Schedule Interview" CvType="Button" DesignTimeRectangle="1105, 404, 185, 30" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname=' Schedule Interview ' tag='BUTTON' type='button' class='oxd-button oxd-button--medium oxd-button--success' check:innerText='Schedule Interview' /&gt;" Guid="bf3e1d00-2d51-4a67-b4de-ac2c3b77da6c" InformativeScreenshot="06826d9f3033b925822d6cb9469fa151.png" Reference="q-HrZsaNjU2S80AJrClBOQ/M0qLulKANUWbB92bPs2aXA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Interview Title'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_10" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Text="[Entrevista]" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/changeCandidateVacancyStatus" CVScreenId="ca7c531f-e559-4c0c-a4e0-11abbebfc1f8" ContentHash="SFhCi4oDzU60sPzYAuI3TQ" CvElementArea="337, 454, 305, 48" CvType="InputBox" DesignTimeRectangle="339, 456, 300, 45" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl type='' class='oxd-input oxd-input--active' tag='INPUT' aaname='' /&gt;" Guid="c0cb82c7-7a03-42e9-8282-9db4da1116de" InformativeScreenshot="9e00ac0443cf72aeddb48f077f64b813.png" IsResponsive="True" Reference="q-HrZsaNjU2S80AJrClBOQ/4DLJg-9DKkqRUA2ZXxrOUA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="ca7c531f-e559-4c0c-a4e0-11abbebfc1f8" CvTextArea="338, 436, 85, 11" CvTextArgument="Interview Title*" CvType="Text" DesignTimeRectangle="339, 434, 83, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Interview Title' tag='LABEL' type='' class='oxd-label oxd-input-field-required' check:innerText='Interview Title' /&gt;" Guid="0bf74e90-ee39-4faa-b57b-faab515ce005" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Interviewer'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_11" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Text="[Inicial]" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/changeCandidateVacancyStatus" CVScreenId="522ab006-aed7-4ed1-9c8f-e515d9f33dac" ContentHash="z59SeiTYaUimkc2cNhI-gA" CvElementArea="337, 538, 304, 47" CvType="InputBox" DesignTimeRectangle="340, 542, 298, 40" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl type='' tag='INPUT' class='' placeholder='Type for hints...' aaname='' /&gt;" Guid="f6c8d4ee-d596-4727-974e-0f4b88969b29" InformativeScreenshot="70fc4d88b7e66472fffd96c8fd9655d3.png" IsResponsive="True" Reference="q-HrZsaNjU2S80AJrClBOQ/mtAgqVxJjUKDW6YQcQiA1g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="522ab006-aed7-4ed1-9c8f-e515d9f33dac" CvTextArea="338, 519, 69, 11" CvTextArgument="Interviewer*" CvType="Text" DesignTimeRectangle="339, 517, 68, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Interviewer' tag='LABEL' type='' class='oxd-label oxd-input-field-required' check:innerText='Interviewer' /&gt;" Guid="8c124785-8f94-497f-b6f9-f2b18e15dff9" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'James Butler'" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_33" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/changeCandidateVacancyStatus" CVScreenId="3c7d1cb1-fd36-4f49-a46c-3bddd3d704ad" ContentHash="8Z-aMk0CuUGmbGzv2x2Kfg" CvElementArea="339, 439, 299, 43" CvType="InputBox" DesignTimeRectangle="348, 452, 68, 16" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='James  Butler' tag='SPAN' type='' class='' check:innerText='James Butler' /&gt;" Guid="e89073c0-bc35-44f1-bc87-a16dd68cc6e8" InformativeScreenshot="8739c91f961072a2ee8c10956ee6e971.png" Reference="q-HrZsaNjU2S80AJrClBOQ/5dda8t9amka9kKL7zULgxA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Interviewer'" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_21" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/changeCandidateVacancyStatus" CVScreenId="87b8bb9d-e9ae-47cb-9f7e-e2d7b2baa9c8" ContentHash="oUtzGlMN_UyDmGn2nMPirg" CvElementArea="337, 343, 304, 47" CvType="InputBox" DesignTimeRectangle="340, 390, 298, 40" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl type='' tag='INPUT' class='' placeholder='Type for hints...' aaname='' /&gt;" Guid="994346c7-01a2-4f56-98c3-fec519c794d8" InformativeScreenshot="a43fb45ce5b00384b19d759774f5601d.png" IsResponsive="True" Reference="q-HrZsaNjU2S80AJrClBOQ/K8cqtAifk0-KlumXXY7Lew" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="87b8bb9d-e9ae-47cb-9f7e-e2d7b2baa9c8" CvTextArea="338, 323, 69, 11" CvTextArgument="Interviewer*" CvType="Text" DesignTimeRectangle="339, 365, 68, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Interviewer' tag='LABEL' type='' class='oxd-label oxd-input-field-required' check:innerText='Interviewer' /&gt;" Guid="6f67dbb6-2dbe-4646-b607-6a9464c2135d" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Date'" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_23" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/changeCandidateVacancyStatus" ContentHash="B5vTGqb_7UyL_rtI8HGm3g" DesignTimeRectangle="925, 593, 35, 35" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl type='' tag='I' class='oxd-icon bi-calendar oxd-date-input-icon' aaname='' /&gt;" Guid="5ee14cf3-0b7d-403e-af30-85120805c494" InformativeScreenshot="eb6b7c640f02755f82bd69d6a05b5538.png" Reference="q-HrZsaNjU2S80AJrClBOQ/sv3CLQdBU0ql0SFDEEmR_w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="fbc1ba9f-0231-431c-b8b5-80a1a3cf76bc" CvTextArea="662, 567, 33, 11" CvTextArgument="Date*" CvType="Text" DesignTimeRectangle="663, 565, 32, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Date' tag='LABEL' type='' class='oxd-label oxd-input-field-required' check:innerText='Date' /&gt;" Guid="83f30ced-a170-48e4-91e4-1c4a2f7ccd7b" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '14(1)'" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_24" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/changeCandidateVacancyStatus" CVScreenId="78f95aa2-3234-4bda-9fd6-dfc62d084ec1" ContentHash="ShsKhUAmQEuI3KA6MZIoig" CvTextArea="919, 571, 16, 11" CvTextArgument="14" CvType="Text" DesignTimeRectangle="909, 558, 38, 38" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='14' parentid='app' tag='DIV' type='' class='oxd-calendar-date --selected --today' check:innerText='14' /&gt;" Guid="38b10446-b36d-44f0-bf74-a20306f5f62e" InformativeScreenshot="ee535e3b447d7564710a7f3846b7844f.png" Reference="q-HrZsaNjU2S80AJrClBOQ/MePBXvTcLEC5QXBQwnFCHw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save(2)'" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_25" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/changeCandidateVacancyStatus" CVScreenId="0844a29a-c5c2-46a5-9282-8eef55c79344" ContentHash="-Erm_KJS50CvtPJJAmHaJQ" CvElementArea="1189, 650, 103, 34" CvTextArea="1223, 659, 33, 13" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1190, 651, 100, 32" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space' aaname=' Save ' check:innerText='Save' /&gt;" Guid="d67da19d-10c2-487e-95a3-03d3e8dd1b30" InformativeScreenshot="50efcacc88ff5967372a9f187b692f60.png" Reference="q-HrZsaNjU2S80AJrClBOQ/RkqhclAL3Uivuo37C6P_9A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Mark Interview Passed'" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_26" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/addCandidate/95" CVScreenId="765b7f43-6104-4ec4-b0cd-09d570a62ef8" ContentHash="w8WZjYmFA0qDucVWcu5hbQ" CvElementArea="1083, 349, 207, 34" CvTextArea="1112, 359, 147, 13" CvTextArgument="Mark Interview Passed" CvType="Button" DesignTimeRectangle="1082, 352, 208, 30" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname=' Mark Interview Passed ' tag='BUTTON' type='button' class='oxd-button oxd-button--medium oxd-button--success' check:innerText='Mark Interview Passed' /&gt;" Guid="5691a2a4-5842-45d7-bfc2-f896bf784d76" InformativeScreenshot="b97e27e50ca56f81f720fb9741b0c6b0.png" Reference="q-HrZsaNjU2S80AJrClBOQ/xPv1_qEiT0mvzTFKoHxHzg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save(3)'" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_27" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/changeCandidateVacancyStatus" CVScreenId="1fc6c5d8-ffef-4630-8677-0270d47c2f2d" ContentHash="JD1YybXXZUCd8bbHRhoKjA" CvElementArea="1188, 620, 103, 34" CvTextArea="1223, 629, 33, 13" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1190, 621, 100, 32" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space' aaname=' Save ' check:innerText='Save' /&gt;" Guid="cd3b0f7b-6b63-4c0f-8aac-043e840e8ca0" InformativeScreenshot="bd186cd2a4156cc9a57f36dd7f0b6476.png" Reference="q-HrZsaNjU2S80AJrClBOQ/Bw17gtlU50yHOAXBLUQHjQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="1fc6c5d8-ffef-4630-8677-0270d47c2f2d" CvTextArea="336, 279, 172, 14" CvTextArgument="Mark Interview Passed" CvType="Text" DesignTimeRectangle="337, 276, 953, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='H6' class='oxd-text oxd-text--h6 orangehrm-main-title' aaname='Mark Interview Passed' check:innerText='Mark Interview Passed' /&gt;" Guid="0a2e0230-3e74-4601-b10e-f84f99040470" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Offer Job'" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_28" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/addCandidate/95" CVScreenId="9d86d33a-bb06-4fa7-b05c-6ac68b5bcd16" ContentHash="IIhWD8SwjkKxQOugqMo1YQ" CvElementArea="1168, 350, 123, 34" CvTextArea="1199, 359, 60, 13" CvTextArgument="Offer Job" CvType="Button" DesignTimeRectangle="1169, 352, 121, 30" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname=' Offer Job ' tag='BUTTON' type='button' class='oxd-button oxd-button--medium oxd-button--success' check:innerText='Offer Job' /&gt;" Guid="b7a4ebd0-47c7-4543-ab73-c8ed504a68a5" InformativeScreenshot="7fe2e8094bf28bd738c5728f8538e7ad.png" Reference="q-HrZsaNjU2S80AJrClBOQ/lfaOnfvtp0WHmbfYBvYKqA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save(4)'" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_29" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/changeCandidateVacancyStatus" CVScreenId="5b735df3-c6f7-4303-83c0-2d1da71d99fc" ContentHash="R0sFVUrDwEWnpNl4fqqtmg" CvElementArea="1188, 620, 103, 34" CvTextArea="1223, 629, 33, 13" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1190, 621, 100, 32" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space' aaname=' Save ' check:innerText='Save' /&gt;" Guid="3abefb78-9e43-479e-8b18-2962b6b5b58d" InformativeScreenshot="9e9f6169cba87db4852b798b7069c69f.png" Reference="q-HrZsaNjU2S80AJrClBOQ/1wky2d1zaUeBtHHtpPRkyw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="5b735df3-c6f7-4303-83c0-2d1da71d99fc" CvTextArea="336, 279, 70, 14" CvTextArgument="Offer Job" CvType="Text" DesignTimeRectangle="337, 276, 953, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='H6' class='oxd-text oxd-text--h6 orangehrm-main-title' aaname='Offer Job' check:innerText='Offer Job' /&gt;" Guid="566bf454-8194-452d-a154-6737fc7bc860" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Hire'" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_30" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/addCandidate/95" CVScreenId="476498da-db79-4f8f-b96f-edf8c8ac22c1" ContentHash="JmWp8crFc022rylZN_Evjg" CvElementArea="1189, 350, 103, 33" CvTextArea="1225, 359, 29, 13" CvTextArgument="Hire" CvType="Button" DesignTimeRectangle="1190, 352, 100, 30" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname=' Hire ' tag='BUTTON' type='button' class='oxd-button oxd-button--medium oxd-button--success' check:innerText='Hire' /&gt;" Guid="6b85bf75-d42d-490d-b80d-b0eea8d74a81" InformativeScreenshot="5de810ab80162a16964139395e2cc37e.png" Reference="q-HrZsaNjU2S80AJrClBOQ/MLjOliGF0UOgL4Y4dYPG3A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="476498da-db79-4f8f-b96f-edf8c8ac22c1" CvTextArea="335, 255, 136, 17" CvTextArgument="Application Stage" CvType="Text" DesignTimeRectangle="337, 252, 953, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='H6' class='oxd-text oxd-text--h6 orangehrm-main-title' aaname='Application Stage' check:innerText='Application Stage' /&gt;" Guid="a510b63f-4041-4c4b-8d54-edb0da21ea9a" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save(5)'" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_31" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/changeCandidateVacancyStatus" CVScreenId="2e487304-1ad1-40f5-aff8-fbc4bf5eb4d2" ContentHash="Eg8k1AXr0Ua9fbbuuv3peA" CvElementArea="1188, 620, 103, 34" CvTextArea="1223, 629, 33, 13" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1190, 621, 100, 32" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space' aaname=' Save ' check:innerText='Save' /&gt;" Guid="b6ea797e-5076-4939-820d-3af8eadf568c" InformativeScreenshot="d9c9c4b3852c4a510dfd1924a2b80ac1.png" Reference="q-HrZsaNjU2S80AJrClBOQ/e0yLg6e0VkqKYIUuUUGi7w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="2e487304-1ad1-40f5-aff8-fbc4bf5eb4d2" CvTextArea="336, 279, 113, 14" CvTextArgument="Hire Candidate" CvType="Text" DesignTimeRectangle="337, 276, 953, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='H6' class='oxd-text oxd-text--h6 orangehrm-main-title' aaname='Hire Candidate' check:innerText='Hire Candidate' /&gt;" Guid="eca58072-cac7-441f-85d4-ec9d0e317c13" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Candidates'" sap:VirtualizedContainerService.HintSize="416,182" sap2010:WorkflowViewState.IdRef="NClick_32" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6844fa3-879d-484c-b2ee-3c154370a54d" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates" CVScreenId="64208b90-df83-45f1-82cc-5289efa074cb" ContentHash="A6EY3AYeWEiPEC_ke1Io5g" CvElementArea="310, 167, 90, 38" CvTextArea="323, 181, 62, 11" CvTextArgument="Candidates" CvType="Button" DesignTimeRectangle="324, 179, 61, 16" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='oxd-topbar-body-nav-tab-item' tag='A' type='' aaname='Candidates' check:innerText='Candidates' /&gt;" Guid="5de5590f-3d09-4ef4-8e24-58922e2d4594" InformativeScreenshot="3b808593b39c9c71e68d0b0379e929a8.png" Reference="q-HrZsaNjU2S80AJrClBOQ/jU7qMuBmjEmbeHKVMteHmA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1382, 784" BrowserType="Chrome" ContentHash="e8W0TTWtEku6p9Yaj1dHLQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGAUExURf///v759eh8Hv77+Prl0/fRsORpAOd5GP/+/f748/3+/fG1f/K0f+yZUOqMPORlAPjZved6GU2xdeZwCQCKL/738TCmYud1Ev328P3y6azbwPCrbvjVtu6fW/779/72777jzd6qbf327yCcUv307edzEOmEK+mAJP7fyZHQrvHu4cTl0v3z6/K2gvO6iPzw5v/8+fz+/fGudPzl0vK5hvzs3uZxC++kY+d5Gfzt4eRnAORoAE6ydxCXR/CoafjWuf77+eRmAPCpbO6iYfzv5Mnm1SeeVN/y6Od+IWS6hO6dViWkX++lY53YuyedU/CmaO6fWv748uNoAPv9+/rjz++jX/bNqfTEmff8+fzu4fXHoPnexgCILvrizeZyDTSmY/jYvOZwCla0fPCqbffTs7Pexe2aUf///////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOlg/doAAABpdFJOU///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AKA3ZhoAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC1SURBVChTY8iAg/QMw4yMDAYYN1jKU0hZG0kgSSTe1g9JhaubpliMAkIgPSPVxts3HSYgH5KRrqXoA5YCCdgzpYVmiGYYe/kzgwVYEmUyMljCMjI4AqTBArzOGSDNGRkZLhaRGQwZjOJRUJsy5NhTQCqYzCEK0jMy4hJAAnpsrBA96clmYDNUPITDM9LTMwJ5gozSwdbGslupOenaqfPzwRxmKatq7cgmyA3SCXW6vkBGNMQgAE9PVJG6bC8YAAAAAElFTkSuQmCC" InformativeScreenshot="8896c184e8c3976521e3473ba7ac5385.jpg" Reference="q-HrZsaNjU2S80AJrClBOQ/VjoUXDWImEupLbv_mxaLZw" Selector="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" Title="OrangeHRM" Url="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" Version="V1" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

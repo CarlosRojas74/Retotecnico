@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="sGwoiroFCk-tscamfz-3-w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="opensource-demo.orangehrmlive.com/web/index.php/recruitment/changeCandidateVacancyStatus" DesignTimeRectangle="925, 545, 35, 35" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl type='' tag='I' class='oxd-icon bi-calendar oxd-date-input-icon' aaname='' /&gt;" Guid="6864be3c-8606-45d6-9240-34ae9af00f19" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="743b014a-0f84-47ab-be63-322d842bc8f1" CvTextArea="662, 519, 33, 11" CvTextArgument="Date*" CvType="Text" DesignTimeRectangle="663, 517, 32, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Date' tag='LABEL' type='' class='oxd-label oxd-input-field-required' check:innerText='Date' /&gt;" Guid="14d88ded-da3a-46b6-b44e-739274a4ba26" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="836dec1d1b9303d2b1a3837af4c75c14.png" xmlns="">0fZLmO52JY0m1Cj71fjYdsg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
